@@ -14,6 +14,10 @@
 		75CE80C31EEAAD4300413D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CE80C21EEAAD4300413D03 /* Assets.xcassets */; };
 		75CE80C61EEAAD4300413D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CE80C41EEAAD4300413D03 /* LaunchScreen.storyboard */; };
 		75CE80D11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80D01EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift */; };
+		75CE80DC1EEAB99300413D03 /* SumAllNumbersInRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80DB1EEAB99300413D03 /* SumAllNumbersInRange.swift */; };
+		75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80DD1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift */; };
+		75CE80E01EEABE3400413D03 /* DiffTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80DF1EEABE3400413D03 /* DiffTwoArrays.swift */; };
+		75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		75CE80CC1EEAAD4300413D03 /* Solving-Intermidiatel-algorithms-and-unit-testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solving-Intermidiatel-algorithms-and-unit-testingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CE80D01EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solving_Intermidiatel_algorithms_and_unit_testingTests.swift; sourceTree = "<group>"; };
 		75CE80D21EEAAD4300413D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CE80DB1EEAB99300413D03 /* SumAllNumbersInRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllNumbersInRange.swift; sourceTree = "<group>"; };
+		75CE80DD1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllNumbersInRangeTests.swift; sourceTree = "<group>"; };
+		75CE80DF1EEABE3400413D03 /* DiffTwoArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffTwoArrays.swift; sourceTree = "<group>"; };
+		75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffTwoArraysTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 				75CE80C41EEAAD4300413D03 /* LaunchScreen.storyboard */,
 				75CE80C71EEAAD4300413D03 /* Info.plist */,
 				75CE80BF1EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testing.xcdatamodeld */,
+				75CE80DB1EEAB99300413D03 /* SumAllNumbersInRange.swift */,
+				75CE80DD1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift */,
+				75CE80DF1EEABE3400413D03 /* DiffTwoArrays.swift */,
+				75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -207,6 +219,8 @@
 				75CE80BB1EEAAD4300413D03 /* ViewController.swift in Sources */,
 				75CE80C11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testing.xcdatamodeld in Sources */,
 				75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */,
+				75CE80DC1EEAB99300413D03 /* SumAllNumbersInRange.swift in Sources */,
+				75CE80E01EEABE3400413D03 /* DiffTwoArrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CE80D11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift in Sources */,
+				75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */,
+				75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
