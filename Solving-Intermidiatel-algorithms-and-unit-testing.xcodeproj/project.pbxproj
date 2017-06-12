@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75416D101EEB41EB0088E92A /* RomanNumeralConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */; };
+		75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */; };
 		75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80B81EEAAD4300413D03 /* AppDelegate.swift */; };
 		75CE80BB1EEAAD4300413D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80BA1EEAAD4300413D03 /* ViewController.swift */; };
 		75CE80BE1EEAAD4300413D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CE80BC1EEAAD4300413D03 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverter.swift; sourceTree = "<group>"; };
+		75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverterTests.swift; sourceTree = "<group>"; };
 		75CE80B51EEAAD4300413D03 /* Solving-Intermidiatel-algorithms-and-unit-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solving-Intermidiatel-algorithms-and-unit-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CE80B81EEAAD4300413D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CE80BA1EEAAD4300413D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				75CE80DD1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift */,
 				75CE80DF1EEABE3400413D03 /* DiffTwoArrays.swift */,
 				75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */,
+				75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */,
+				75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */,
 				75CE80DC1EEAB99300413D03 /* SumAllNumbersInRange.swift in Sources */,
 				75CE80E01EEABE3400413D03 /* DiffTwoArrays.swift in Sources */,
+				75416D101EEB41EB0088E92A /* RomanNumeralConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +237,7 @@
 			files = (
 				75CE80D11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift in Sources */,
 				75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */,
+				75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */,
 				75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +442,7 @@
 				75CE80D71EEAAD4300413D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75CE80D81EEAAD4300413D03 /* Build configuration list for PBXNativeTarget "Solving-Intermidiatel-algorithms-and-unit-testingTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +451,7 @@
 				75CE80DA1EEAAD4300413D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
