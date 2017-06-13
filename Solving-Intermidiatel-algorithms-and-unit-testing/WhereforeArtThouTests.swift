@@ -21,16 +21,33 @@ class WhereforeArtThouTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testWhatIsInAName() {
+        var firstArray: Array<Dictionary<String, Any>> = [["first": "Romeo", "last": "Montague"], ["first": "Mercutio", "last": "Smith"], ["first": "Tybalt", "last": "Capulet"]]
+        let secondArray: Array<Dictionary<String, Any>> =  [["last": "Capulet"]]
+        let checkingArray: Array<Dictionary<String, Any>> = [["first": "Tybalt", "last": "Capulet"]]
+        let resultArray = whereforeArtThou.whatIsInAName(firstArray: firstArray, secondArray: secondArray)
+        XCTAssertEqual(resultArray[0].keys.first, checkingArray[0].keys.first)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testWhatIsInANameCheck2() {
+        var firstArray: Array<Dictionary<String, Any>> = [["a": 1], ["a": 1], ["a": 1, "b": 2]]
+        let secondArray: Array<Dictionary<String, Any>> =  [["a": 1]]
+        let checkingArray: Array<Dictionary<String, Any>> = [["a": 1], ["a": 1], ["a": 1, "b": 2]]
+        let resultArray = whereforeArtThou.whatIsInAName(firstArray: firstArray, secondArray: secondArray)
+        XCTAssertEqual(resultArray[0].keys.first, checkingArray[0].keys.first)
+    }
+    func testWhatIsInANameCheck3() {
+        var firstArray: Array<Dictionary<String, Any>> = [["a": 1, "b": 2], ["a": 1], ["a": 1, "b": 2, "c": 2]]
+        let secondArray: Array<Dictionary<String, Any>> =  [["a": 1, "b": 2]]
+        let checkingArray: Array<Dictionary<String, Any>> = [["a": 1, "b": 2], ["a": 1, "b": 2, "c": 2]]
+        let resultArray = whereforeArtThou.whatIsInAName(firstArray: firstArray, secondArray: secondArray)
+        XCTAssertEqual(resultArray[0].keys.first, checkingArray[0].keys.first)
+    }
+    func testWhatIsInANameCheck4() {
+        var firstArray: Array<Dictionary<String, Any>> = [["a": 1, "b": 2], ["a": 1], ["a": 1, "b": 2, "c": 2]]
+        let secondArray: Array<Dictionary<String, Any>> =  [["a": 1, "c": 2]]
+        let checkingArray: Array<Dictionary<String, Any>> = [["a": 1, "b": 2, "c": 2]]
+        let resultArray = whereforeArtThou.whatIsInAName(firstArray: firstArray, secondArray: secondArray)
+        XCTAssertEqual(resultArray[0].keys.first, checkingArray[0].keys.first)
     }
     
 }

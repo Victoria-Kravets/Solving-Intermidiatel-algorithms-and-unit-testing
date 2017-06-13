@@ -132,11 +132,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Solving-Intermidiatel-algorithms-and-unit-testing/SearchAndReplace.swift"
-            timestampString = "518972594.217068"
+            timestampString = "519038823.2706"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "myReplace(originalStr:wordInStr:newWord:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -148,12 +148,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Solving-Intermidiatel-algorithms-and-unit-testing/SearchAndReplace.swift"
-            timestampString = "518983851.065987"
+            timestampString = "519038823.2706"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "myReplace(originalStr:wordInStr:newWord:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Solving-Intermidiatel-algorithms-and-unit-testing/WhereforeArtThou.swift"
+            timestampString = "519051101.74343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "whatIsInAName(firstArray:secondArray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Solving-Intermidiatel-algorithms-and-unit-testing/WhereforeArtThou.swift"
+            timestampString = "519050297.638948"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "whatIsInAName(firstArray:secondArray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Solving-Intermidiatel-algorithms-and-unit-testing/WhereforeArtThou.swift"
+            timestampString = "519051101.74343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "whatIsInAName(firstArray:secondArray:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
