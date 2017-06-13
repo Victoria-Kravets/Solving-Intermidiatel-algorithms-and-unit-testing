@@ -4,7 +4,9 @@
 //
 //  Created by Viktoria on 6/9/17.
 //  Copyright © 2017 Viktoria. All rights reserved.
-//
+/*
+ Convert the given number into a roman numeral.
+ */
 
 import Foundation
 class RomanNumeralConverter{
@@ -108,11 +110,6 @@ class RomanNumeralConverter{
         }
         reversedResult = resultArray.joined()
         let result = String(reversedResult.characters.reversed())
-        
-
-
-        
-        
         return result
     }
 }

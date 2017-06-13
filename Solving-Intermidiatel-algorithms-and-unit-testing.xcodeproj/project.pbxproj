@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7516BE2F1EEED6C000BBC64E /* WhereforeArtThou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516BE2E1EEED6C000BBC64E /* WhereforeArtThou.swift */; };
+		7516BE311EEED6E600BBC64E /* WhereforeArtThouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516BE301EEED6E600BBC64E /* WhereforeArtThouTests.swift */; };
+		7516BE351EEEDE4D00BBC64E /* SearchAndReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516BE341EEEDE4D00BBC64E /* SearchAndReplace.swift */; };
+		7516BE371EEEDE6C00BBC64E /* SearchAndReplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516BE361EEEDE6C00BBC64E /* SearchAndReplaceTests.swift */; };
 		75416D101EEB41EB0088E92A /* RomanNumeralConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */; };
 		75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */; };
 		75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80B81EEAAD4300413D03 /* AppDelegate.swift */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7516BE2E1EEED6C000BBC64E /* WhereforeArtThou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhereforeArtThou.swift; sourceTree = "<group>"; };
+		7516BE301EEED6E600BBC64E /* WhereforeArtThouTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhereforeArtThouTests.swift; sourceTree = "<group>"; };
+		7516BE341EEEDE4D00BBC64E /* SearchAndReplace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAndReplace.swift; sourceTree = "<group>"; };
+		7516BE361EEEDE6C00BBC64E /* SearchAndReplaceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAndReplaceTests.swift; sourceTree = "<group>"; };
 		75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverter.swift; sourceTree = "<group>"; };
 		75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverterTests.swift; sourceTree = "<group>"; };
 		75CE80B51EEAAD4300413D03 /* Solving-Intermidiatel-algorithms-and-unit-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solving-Intermidiatel-algorithms-and-unit-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +112,10 @@
 				75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */,
 				75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */,
 				75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */,
+				7516BE2E1EEED6C000BBC64E /* WhereforeArtThou.swift */,
+				7516BE301EEED6E600BBC64E /* WhereforeArtThouTests.swift */,
+				7516BE341EEEDE4D00BBC64E /* SearchAndReplace.swift */,
+				7516BE361EEEDE6C00BBC64E /* SearchAndReplaceTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -224,9 +236,11 @@
 			files = (
 				75CE80BB1EEAAD4300413D03 /* ViewController.swift in Sources */,
 				75CE80C11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testing.xcdatamodeld in Sources */,
+				7516BE2F1EEED6C000BBC64E /* WhereforeArtThou.swift in Sources */,
 				75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */,
 				75CE80DC1EEAB99300413D03 /* SumAllNumbersInRange.swift in Sources */,
 				75CE80E01EEABE3400413D03 /* DiffTwoArrays.swift in Sources */,
+				7516BE351EEEDE4D00BBC64E /* SearchAndReplace.swift in Sources */,
 				75416D101EEB41EB0088E92A /* RomanNumeralConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +252,8 @@
 				75CE80D11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift in Sources */,
 				75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */,
 				75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */,
+				7516BE311EEED6E600BBC64E /* WhereforeArtThouTests.swift in Sources */,
+				7516BE371EEEDE6C00BBC64E /* SearchAndReplaceTests.swift in Sources */,
 				75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
