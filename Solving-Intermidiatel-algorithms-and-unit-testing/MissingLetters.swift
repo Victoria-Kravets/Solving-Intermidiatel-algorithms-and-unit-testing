@@ -4,7 +4,9 @@
 //
 //  Created by Viktoria on 6/14/17.
 //  Copyright © 2017 Viktoria. All rights reserved.
-//
+/*
+ Find the missing letter in the passed letter range and return it.
+ */
 
 import Foundation
 class MissingLetters{

@@ -19,6 +19,8 @@
 		7597C11C1EF13FC200B0D5C5 /* DNAPairingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C11B1EF13FC200B0D5C5 /* DNAPairingTests.swift */; };
 		7597C11E1EF141BA00B0D5C5 /* MissingLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C11D1EF141BA00B0D5C5 /* MissingLetters.swift */; };
 		7597C1201EF141D900B0D5C5 /* MissingLettersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C11F1EF141D900B0D5C5 /* MissingLettersTests.swift */; };
+		7597C1221EF175E800B0D5C5 /* BooWho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C1211EF175E800B0D5C5 /* BooWho.swift */; };
+		7597C1241EF175FE00B0D5C5 /* BooWhoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C1231EF175FE00B0D5C5 /* BooWhoTests.swift */; };
 		75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80B81EEAAD4300413D03 /* AppDelegate.swift */; };
 		75CE80BB1EEAAD4300413D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80BA1EEAAD4300413D03 /* ViewController.swift */; };
 		75CE80BE1EEAAD4300413D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CE80BC1EEAAD4300413D03 /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		7597C11B1EF13FC200B0D5C5 /* DNAPairingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNAPairingTests.swift; sourceTree = "<group>"; };
 		7597C11D1EF141BA00B0D5C5 /* MissingLetters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingLetters.swift; sourceTree = "<group>"; };
 		7597C11F1EF141D900B0D5C5 /* MissingLettersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingLettersTests.swift; sourceTree = "<group>"; };
+		7597C1211EF175E800B0D5C5 /* BooWho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooWho.swift; sourceTree = "<group>"; };
+		7597C1231EF175FE00B0D5C5 /* BooWhoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooWhoTests.swift; sourceTree = "<group>"; };
 		75CE80B51EEAAD4300413D03 /* Solving-Intermidiatel-algorithms-and-unit-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solving-Intermidiatel-algorithms-and-unit-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CE80B81EEAAD4300413D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CE80BA1EEAAD4300413D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				7597C11B1EF13FC200B0D5C5 /* DNAPairingTests.swift */,
 				7597C11D1EF141BA00B0D5C5 /* MissingLetters.swift */,
 				7597C11F1EF141D900B0D5C5 /* MissingLettersTests.swift */,
+				7597C1211EF175E800B0D5C5 /* BooWho.swift */,
+				7597C1231EF175FE00B0D5C5 /* BooWhoTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 				75CE80C11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testing.xcdatamodeld in Sources */,
 				7597C11A1EF13FA700B0D5C5 /* DNAPairing.swift in Sources */,
 				7516BE2F1EEED6C000BBC64E /* WhereforeArtThou.swift in Sources */,
+				7597C1221EF175E800B0D5C5 /* BooWho.swift in Sources */,
 				755E386F1EF0183D008381F2 /* PigLatin.swift in Sources */,
 				75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */,
 				75CE80DC1EEAB99300413D03 /* SumAllNumbersInRange.swift in Sources */,
@@ -275,6 +282,7 @@
 				75CE80D11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift in Sources */,
 				75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */,
 				75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */,
+				7597C1241EF175FE00B0D5C5 /* BooWhoTests.swift in Sources */,
 				7516BE311EEED6E600BBC64E /* WhereforeArtThouTests.swift in Sources */,
 				7516BE371EEEDE6C00BBC64E /* SearchAndReplaceTests.swift in Sources */,
 				75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */,
