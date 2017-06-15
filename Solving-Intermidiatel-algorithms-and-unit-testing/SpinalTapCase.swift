@@ -31,4 +31,4 @@ class SpinalTapCase{
         let resultStr = currentStr.lowercased()
         return resultStr
     }
-} //task 12
+} 
