@@ -13,6 +13,10 @@
 		7516BE371EEEDE6C00BBC64E /* SearchAndReplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516BE361EEEDE6C00BBC64E /* SearchAndReplaceTests.swift */; };
 		75416D101EEB41EB0088E92A /* RomanNumeralConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */; };
 		75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */; };
+		754A60C71EF1C8AB00DCACDB /* SpinalTapCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60C61EF1C8AB00DCACDB /* SpinalTapCase.swift */; };
+		754A60C91EF1C8C700DCACDB /* SpinalTapCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60C81EF1C8C700DCACDB /* SpinalTapCaseTests.swift */; };
+		754A60CB1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60CA1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift */; };
+		754A60CD1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60CC1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift */; };
 		755E386F1EF0183D008381F2 /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E386E1EF0183D008381F2 /* PigLatin.swift */; };
 		755E38711EF01859008381F2 /* PigLatinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E38701EF01859008381F2 /* PigLatinTests.swift */; };
 		7597C11A1EF13FA700B0D5C5 /* DNAPairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C1191EF13FA700B0D5C5 /* DNAPairing.swift */; };
@@ -53,6 +57,10 @@
 		7516BE361EEEDE6C00BBC64E /* SearchAndReplaceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAndReplaceTests.swift; sourceTree = "<group>"; };
 		75416D0F1EEB41EB0088E92A /* RomanNumeralConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverter.swift; sourceTree = "<group>"; };
 		75416D111EEB42020088E92A /* RomanNumeralConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverterTests.swift; sourceTree = "<group>"; };
+		754A60C61EF1C8AB00DCACDB /* SpinalTapCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinalTapCase.swift; sourceTree = "<group>"; };
+		754A60C81EF1C8C700DCACDB /* SpinalTapCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinalTapCaseTests.swift; sourceTree = "<group>"; };
+		754A60CA1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllOddFibonacciNumbers.swift; sourceTree = "<group>"; };
+		754A60CC1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllOddFibonacciNumbersTests.swift; sourceTree = "<group>"; };
 		755E386E1EF0183D008381F2 /* PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatin.swift; sourceTree = "<group>"; };
 		755E38701EF01859008381F2 /* PigLatinTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinTests.swift; sourceTree = "<group>"; };
 		7597C1191EF13FA700B0D5C5 /* DNAPairing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNAPairing.swift; sourceTree = "<group>"; };
@@ -146,6 +154,10 @@
 				7597C1231EF175FE00B0D5C5 /* BooWhoTests.swift */,
 				7597C1251EF1792300B0D5C5 /* SortedUnion.swift */,
 				7597C1271EF1793200B0D5C5 /* SortedUnionTests.swift */,
+				754A60C61EF1C8AB00DCACDB /* SpinalTapCase.swift */,
+				754A60C81EF1C8C700DCACDB /* SpinalTapCaseTests.swift */,
+				754A60CA1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift */,
+				754A60CC1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -270,10 +282,12 @@
 				7597C11A1EF13FA700B0D5C5 /* DNAPairing.swift in Sources */,
 				7516BE2F1EEED6C000BBC64E /* WhereforeArtThou.swift in Sources */,
 				7597C1221EF175E800B0D5C5 /* BooWho.swift in Sources */,
+				754A60CB1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift in Sources */,
 				7597C1261EF1792400B0D5C5 /* SortedUnion.swift in Sources */,
 				755E386F1EF0183D008381F2 /* PigLatin.swift in Sources */,
 				75CE80B91EEAAD4300413D03 /* AppDelegate.swift in Sources */,
 				75CE80DC1EEAB99300413D03 /* SumAllNumbersInRange.swift in Sources */,
+				754A60C71EF1C8AB00DCACDB /* SpinalTapCase.swift in Sources */,
 				75CE80E01EEABE3400413D03 /* DiffTwoArrays.swift in Sources */,
 				7516BE351EEEDE4D00BBC64E /* SearchAndReplace.swift in Sources */,
 				75416D101EEB41EB0088E92A /* RomanNumeralConverter.swift in Sources */,
@@ -284,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754A60CD1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift in Sources */,
 				7597C11C1EF13FC200B0D5C5 /* DNAPairingTests.swift in Sources */,
 				7597C1281EF1793200B0D5C5 /* SortedUnionTests.swift in Sources */,
 				7597C1201EF141D900B0D5C5 /* MissingLettersTests.swift in Sources */,
@@ -294,6 +309,7 @@
 				7516BE311EEED6E600BBC64E /* WhereforeArtThouTests.swift in Sources */,
 				7516BE371EEEDE6C00BBC64E /* SearchAndReplaceTests.swift in Sources */,
 				75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */,
+				754A60C91EF1C8C700DCACDB /* SpinalTapCaseTests.swift in Sources */,
 				755E38711EF01859008381F2 /* PigLatinTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
