@@ -17,6 +17,8 @@
 		754A60C91EF1C8C700DCACDB /* SpinalTapCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60C81EF1C8C700DCACDB /* SpinalTapCaseTests.swift */; };
 		754A60CB1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60CA1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift */; };
 		754A60CD1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60CC1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift */; };
+		754BDC071EF3042A005259CC /* EverythingBeTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BDC061EF3042A005259CC /* EverythingBeTrue.swift */; };
+		754BDC091EF30444005259CC /* EverythingBeTrueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BDC081EF30444005259CC /* EverythingBeTrueTests.swift */; };
 		755E386F1EF0183D008381F2 /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E386E1EF0183D008381F2 /* PigLatin.swift */; };
 		755E38711EF01859008381F2 /* PigLatinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E38701EF01859008381F2 /* PigLatinTests.swift */; };
 		7597C11A1EF13FA700B0D5C5 /* DNAPairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C1191EF13FA700B0D5C5 /* DNAPairing.swift */; };
@@ -71,6 +73,8 @@
 		754A60C81EF1C8C700DCACDB /* SpinalTapCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinalTapCaseTests.swift; sourceTree = "<group>"; };
 		754A60CA1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllOddFibonacciNumbers.swift; sourceTree = "<group>"; };
 		754A60CC1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllOddFibonacciNumbersTests.swift; sourceTree = "<group>"; };
+		754BDC061EF3042A005259CC /* EverythingBeTrue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EverythingBeTrue.swift; sourceTree = "<group>"; };
+		754BDC081EF30444005259CC /* EverythingBeTrueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EverythingBeTrueTests.swift; sourceTree = "<group>"; };
 		755E386E1EF0183D008381F2 /* PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatin.swift; sourceTree = "<group>"; };
 		755E38701EF01859008381F2 /* PigLatinTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinTests.swift; sourceTree = "<group>"; };
 		7597C1191EF13FA700B0D5C5 /* DNAPairing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNAPairing.swift; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 				75A1D8A61EF2D38000094BD4 /* SteamrollerTests.swift */,
 				75A1D8A81EF2E76500094BD4 /* BinaryAgents.swift */,
 				75A1D8AA1EF2E78300094BD4 /* BinaryAgentsTests.swift */,
+				754BDC061EF3042A005259CC /* EverythingBeTrue.swift */,
+				754BDC081EF30444005259CC /* EverythingBeTrueTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 				75A1D8A91EF2E76500094BD4 /* BinaryAgents.swift in Sources */,
 				7516BE2F1EEED6C000BBC64E /* WhereforeArtThou.swift in Sources */,
 				75A1D89D1EF2A09000094BD4 /* SumAllPrimes.swift in Sources */,
+				754BDC071EF3042A005259CC /* EverythingBeTrue.swift in Sources */,
 				7597C1221EF175E800B0D5C5 /* BooWho.swift in Sources */,
 				75A1D8A51EF2D36200094BD4 /* Steamroller.swift in Sources */,
 				75A1D8A11EF2A98A00094BD4 /* SmallestCommonMultiple.swift in Sources */,
@@ -344,6 +351,7 @@
 				75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */,
 				7597C1241EF175FE00B0D5C5 /* BooWhoTests.swift in Sources */,
 				75A1D8AB1EF2E78300094BD4 /* BinaryAgentsTests.swift in Sources */,
+				754BDC091EF30444005259CC /* EverythingBeTrueTests.swift in Sources */,
 				7516BE311EEED6E600BBC64E /* WhereforeArtThouTests.swift in Sources */,
 				7516BE371EEEDE6C00BBC64E /* SearchAndReplaceTests.swift in Sources */,
 				75A1D8A31EF2A9B600094BD4 /* SmallestCommonMultipleTests.swift in Sources */,
