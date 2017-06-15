@@ -25,6 +25,13 @@ class SumAllPrimesTests: XCTestCase {
         let digit = 10
         let checkingDigit = 17
         let result = sumAllPrimes.sumPrimes(digit: digit)
+        XCTAssert(result is Int)
+        XCTAssertEqual(result, checkingDigit)
+    }
+    func testSumPrimesCheck2() {
+        let digit = 109
+        let checkingDigit = 1480
+        let result = sumAllPrimes.sumPrimes(digit: digit)
         XCTAssertEqual(result, checkingDigit)
     }
    

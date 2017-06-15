@@ -14,16 +14,32 @@ import Foundation
 class SumAllPrimes{
     func sumPrimes(digit: Int) -> Int{
         var sum = 0
-        var i = 1, j = 0, count = 0
-        for element in 1...1000 - 1 {
-//            for item in 0...element {
-//                if !(element % item){
-//                    
-//                }
-//            }
-            
+        var arrayOfDigitsInDigit = [Int]()
+        var arrayOf = [Int]()
+        var state = true
+        for digit in 2...digit {
+            arrayOfDigitsInDigit.append(digit)
         }
-        
-        return 0
+        for digit in arrayOfDigitsInDigit {
+            if arrayOf.isEmpty {
+                arrayOf.append(digit)
+                sum += digit
+            }else{
+                for element in arrayOf{
+                    if digit % element != 0{
+                        arrayOf.append(digit)
+                        state = true
+                       
+                    }else{
+                        state = false
+                        break
+                    }
+                }
+                if state == true{
+                   sum += digit
+                }
+            }
+        }
+        return sum
     }
 }
