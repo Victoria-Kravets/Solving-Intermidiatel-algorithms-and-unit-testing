@@ -22,15 +22,35 @@ class DNAPairingTests: XCTestCase {
     }
     
     func testPairElement() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let originalStr = "ATCGA"
+        let checkingArray = [["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]
+        let result = dnaPairing.pairElement(dnaStr: originalStr)
+        XCTAssertEqual(result[0], checkingArray[0])
+        XCTAssertEqual(result[1], checkingArray[1])
+        XCTAssertEqual(result[2], checkingArray[2])
+        XCTAssertEqual(result[3], checkingArray[3])
+        XCTAssertEqual(result[4], checkingArray[4])
+    }
+    func testPairElementCheck2() {
+        let originalStr = "TTGAG"
+        let checkingArray = [["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]
+        let result = dnaPairing.pairElement(dnaStr: originalStr)
+        XCTAssertEqual(result[0], checkingArray[0])
+        XCTAssertEqual(result[1], checkingArray[1])
+        XCTAssertEqual(result[2], checkingArray[2])
+        XCTAssertEqual(result[3], checkingArray[3])
+        XCTAssertEqual(result[4], checkingArray[4])
+    }
+    func testPairElementCheck3() {
+        let originalStr = "CTCTA"
+        let checkingArray = [["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]
+        let result = dnaPairing.pairElement(dnaStr: originalStr)
+        XCTAssertEqual(result[0], checkingArray[0])
+        XCTAssertEqual(result[1], checkingArray[1])
+        XCTAssertEqual(result[2], checkingArray[2])
+        XCTAssertEqual(result[3], checkingArray[3])
+        XCTAssertEqual(result[4], checkingArray[4])
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
     
 }
