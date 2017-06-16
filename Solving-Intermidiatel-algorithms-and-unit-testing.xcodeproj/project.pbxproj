@@ -19,6 +19,8 @@
 		754A60CD1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A60CC1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift */; };
 		754BDC071EF3042A005259CC /* EverythingBeTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BDC061EF3042A005259CC /* EverythingBeTrue.swift */; };
 		754BDC091EF30444005259CC /* EverythingBeTrueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BDC081EF30444005259CC /* EverythingBeTrueTests.swift */; };
+		754BDC0B1EF320EC005259CC /* FindersKeepers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BDC0A1EF320EC005259CC /* FindersKeepers.swift */; };
+		754BDC0D1EF3211B005259CC /* FindersKeepersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BDC0C1EF3211B005259CC /* FindersKeepersTests.swift */; };
 		755E386F1EF0183D008381F2 /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E386E1EF0183D008381F2 /* PigLatin.swift */; };
 		755E38711EF01859008381F2 /* PigLatinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E38701EF01859008381F2 /* PigLatinTests.swift */; };
 		7597C11A1EF13FA700B0D5C5 /* DNAPairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597C1191EF13FA700B0D5C5 /* DNAPairing.swift */; };
@@ -50,6 +52,8 @@
 		75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80DD1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift */; };
 		75CE80E01EEABE3400413D03 /* DiffTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80DF1EEABE3400413D03 /* DiffTwoArrays.swift */; };
 		75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */; };
+		75F41EC21EF3CBE1003472F5 /* DropIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41EC11EF3CBE1003472F5 /* DropIt.swift */; };
+		75F41EC41EF3CBFB003472F5 /* DropItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41EC31EF3CBFB003472F5 /* DropItTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,8 @@
 		754A60CC1EF1D1EC00DCACDB /* SumAllOddFibonacciNumbersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllOddFibonacciNumbersTests.swift; sourceTree = "<group>"; };
 		754BDC061EF3042A005259CC /* EverythingBeTrue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EverythingBeTrue.swift; sourceTree = "<group>"; };
 		754BDC081EF30444005259CC /* EverythingBeTrueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EverythingBeTrueTests.swift; sourceTree = "<group>"; };
+		754BDC0A1EF320EC005259CC /* FindersKeepers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindersKeepers.swift; sourceTree = "<group>"; };
+		754BDC0C1EF3211B005259CC /* FindersKeepersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindersKeepersTests.swift; sourceTree = "<group>"; };
 		755E386E1EF0183D008381F2 /* PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatin.swift; sourceTree = "<group>"; };
 		755E38701EF01859008381F2 /* PigLatinTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinTests.swift; sourceTree = "<group>"; };
 		7597C1191EF13FA700B0D5C5 /* DNAPairing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNAPairing.swift; sourceTree = "<group>"; };
@@ -110,6 +116,8 @@
 		75CE80DD1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumAllNumbersInRangeTests.swift; sourceTree = "<group>"; };
 		75CE80DF1EEABE3400413D03 /* DiffTwoArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffTwoArrays.swift; sourceTree = "<group>"; };
 		75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffTwoArraysTests.swift; sourceTree = "<group>"; };
+		75F41EC11EF3CBE1003472F5 /* DropIt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropIt.swift; sourceTree = "<group>"; };
+		75F41EC31EF3CBFB003472F5 /* DropItTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +202,10 @@
 				75A1D8AA1EF2E78300094BD4 /* BinaryAgentsTests.swift */,
 				754BDC061EF3042A005259CC /* EverythingBeTrue.swift */,
 				754BDC081EF30444005259CC /* EverythingBeTrueTests.swift */,
+				754BDC0A1EF320EC005259CC /* FindersKeepers.swift */,
+				754BDC0C1EF3211B005259CC /* FindersKeepersTests.swift */,
+				75F41EC11EF3CBE1003472F5 /* DropIt.swift */,
+				75F41EC31EF3CBFB003472F5 /* DropItTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -312,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F41EC21EF3CBE1003472F5 /* DropIt.swift in Sources */,
 				7597C11E1EF141BA00B0D5C5 /* MissingLetters.swift in Sources */,
 				75CE80BB1EEAAD4300413D03 /* ViewController.swift in Sources */,
 				75CE80C11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testing.xcdatamodeld in Sources */,
@@ -321,6 +334,7 @@
 				75A1D89D1EF2A09000094BD4 /* SumAllPrimes.swift in Sources */,
 				754BDC071EF3042A005259CC /* EverythingBeTrue.swift in Sources */,
 				7597C1221EF175E800B0D5C5 /* BooWho.swift in Sources */,
+				754BDC0B1EF320EC005259CC /* FindersKeepers.swift in Sources */,
 				75A1D8A51EF2D36200094BD4 /* Steamroller.swift in Sources */,
 				75A1D8A11EF2A98A00094BD4 /* SmallestCommonMultiple.swift in Sources */,
 				754A60CB1EF1D1D000DCACDB /* SumAllOddFibonacciNumbers.swift in Sources */,
@@ -353,11 +367,13 @@
 				75A1D8AB1EF2E78300094BD4 /* BinaryAgentsTests.swift in Sources */,
 				754BDC091EF30444005259CC /* EverythingBeTrueTests.swift in Sources */,
 				7516BE311EEED6E600BBC64E /* WhereforeArtThouTests.swift in Sources */,
+				754BDC0D1EF3211B005259CC /* FindersKeepersTests.swift in Sources */,
 				7516BE371EEEDE6C00BBC64E /* SearchAndReplaceTests.swift in Sources */,
 				75A1D8A31EF2A9B600094BD4 /* SmallestCommonMultipleTests.swift in Sources */,
 				75CE80DE1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift in Sources */,
 				754A60C91EF1C8C700DCACDB /* SpinalTapCaseTests.swift in Sources */,
 				755E38711EF01859008381F2 /* PigLatinTests.swift in Sources */,
+				75F41EC41EF3CBFB003472F5 /* DropItTests.swift in Sources */,
 				75A1D89B1EF27AB000094BD4 /* ConvertHTMLEntitiesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
