@@ -142,6 +142,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75528A0D1EF7E54700E84117 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				75CE80C71EEAAD4300413D03 /* Info.plist */,
+				75CE80BF1EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testing.xcdatamodeld */,
+				75CE80C41EEAAD4300413D03 /* LaunchScreen.storyboard */,
+				75CE80C21EEAAD4300413D03 /* Assets.xcassets */,
+				75CE80BC1EEAAD4300413D03 /* Main.storyboard */,
+				75CE80B81EEAAD4300413D03 /* AppDelegate.swift */,
+				75CE80BA1EEAAD4300413D03 /* ViewController.swift */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
 		75CE80AC1EEAAD4300413D03 = {
 			isa = PBXGroup;
 			children = (
@@ -163,13 +177,7 @@
 		75CE80B71EEAAD4300413D03 /* Solving-Intermidiatel-algorithms-and-unit-testing */ = {
 			isa = PBXGroup;
 			children = (
-				75CE80B81EEAAD4300413D03 /* AppDelegate.swift */,
-				75CE80BA1EEAAD4300413D03 /* ViewController.swift */,
-				75CE80BC1EEAAD4300413D03 /* Main.storyboard */,
-				75CE80C21EEAAD4300413D03 /* Assets.xcassets */,
-				75CE80C41EEAAD4300413D03 /* LaunchScreen.storyboard */,
-				75CE80C71EEAAD4300413D03 /* Info.plist */,
-				75CE80BF1EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testing.xcdatamodeld */,
+				75528A0D1EF7E54700E84117 /* Files */,
 				75CE80DB1EEAB99300413D03 /* SumAllNumbersInRange.swift */,
 				75CE80DD1EEAB9CF00413D03 /* SumAllNumbersInRangeTests.swift */,
 				75CE80DF1EEABE3400413D03 /* DiffTwoArrays.swift */,

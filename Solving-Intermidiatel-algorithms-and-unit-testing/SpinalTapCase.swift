@@ -15,7 +15,7 @@ class SpinalTapCase{
         var currentStr = ""
         var state = true
         for char in originalStr.characters {
-            var str = String(char)
+            let str = String(char)
             if str == " "  || str == "_" || str == "-" {
                 currentStr.insert("-", at: currentStr.endIndex)
                 state = false
