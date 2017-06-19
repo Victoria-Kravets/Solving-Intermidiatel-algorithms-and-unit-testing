@@ -413,5 +413,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Solving-Intermidiatel-algorithms-and-unit-testing/ArgumentsOptionalTests.swift"
+            timestampString = "519317558.262235"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "testAddTogetherCheck2()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Solving_Intermidiatel_algorithms_and_unit_testingTests.ArgumentsOptionalTests.testAddTogetherCheck2 () -&gt; ()"
+                  moduleName = "Solving-Intermidiatel-algorithms-and-unit-testingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktoria/Desktop/Solving-Intermidiatel-algorithms-and-unit-testing/Solving-Intermidiatel-algorithms-and-unit-testing/ArgumentsOptionalTests.swift"
+                  timestampString = "519320267.850924"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Solving_Intermidiatel_algorithms_and_unit_testingTests.ArgumentsOptionalTests.(testAddTogetherCheck2 () -&gt; ()).(closure #1)"
+                  moduleName = "Solving-Intermidiatel-algorithms-and-unit-testingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktoria/Desktop/Solving-Intermidiatel-algorithms-and-unit-testing/Solving-Intermidiatel-algorithms-and-unit-testing/ArgumentsOptionalTests.swift"
+                  timestampString = "519320267.855679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

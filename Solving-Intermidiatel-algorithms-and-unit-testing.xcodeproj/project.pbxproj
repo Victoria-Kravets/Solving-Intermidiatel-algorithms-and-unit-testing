@@ -54,6 +54,8 @@
 		75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */; };
 		75F41EC21EF3CBE1003472F5 /* DropIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41EC11EF3CBE1003472F5 /* DropIt.swift */; };
 		75F41EC41EF3CBFB003472F5 /* DropItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41EC31EF3CBFB003472F5 /* DropItTests.swift */; };
+		75F41EC61EF3E791003472F5 /* ArgumentsOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41EC51EF3E791003472F5 /* ArgumentsOptional.swift */; };
+		75F41EC81EF3E7B5003472F5 /* ArgumentsOptionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41EC71EF3E7B5003472F5 /* ArgumentsOptionalTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,8 @@
 		75CE80E11EEABE4900413D03 /* DiffTwoArraysTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffTwoArraysTests.swift; sourceTree = "<group>"; };
 		75F41EC11EF3CBE1003472F5 /* DropIt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropIt.swift; sourceTree = "<group>"; };
 		75F41EC31EF3CBFB003472F5 /* DropItTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItTests.swift; sourceTree = "<group>"; };
+		75F41EC51EF3E791003472F5 /* ArgumentsOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgumentsOptional.swift; sourceTree = "<group>"; };
+		75F41EC71EF3E7B5003472F5 /* ArgumentsOptionalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgumentsOptionalTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,8 @@
 				754BDC0C1EF3211B005259CC /* FindersKeepersTests.swift */,
 				75F41EC11EF3CBE1003472F5 /* DropIt.swift */,
 				75F41EC31EF3CBFB003472F5 /* DropItTests.swift */,
+				75F41EC51EF3E791003472F5 /* ArgumentsOptional.swift */,
+				75F41EC71EF3E7B5003472F5 /* ArgumentsOptionalTests.swift */,
 			);
 			path = "Solving-Intermidiatel-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -346,6 +352,7 @@
 				75CE80E01EEABE3400413D03 /* DiffTwoArrays.swift in Sources */,
 				7516BE351EEEDE4D00BBC64E /* SearchAndReplace.swift in Sources */,
 				75416D101EEB41EB0088E92A /* RomanNumeralConverter.swift in Sources */,
+				75F41EC61EF3E791003472F5 /* ArgumentsOptional.swift in Sources */,
 				75A1D8991EF27A4100094BD4 /* ConvertHTMLEntities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +369,7 @@
 				75A1D89F1EF2A0CA00094BD4 /* SumAllPrimesTests.swift in Sources */,
 				75CE80D11EEAAD4300413D03 /* Solving_Intermidiatel_algorithms_and_unit_testingTests.swift in Sources */,
 				75CE80E21EEABE4900413D03 /* DiffTwoArraysTests.swift in Sources */,
+				75F41EC81EF3E7B5003472F5 /* ArgumentsOptionalTests.swift in Sources */,
 				75416D121EEB42020088E92A /* RomanNumeralConverterTests.swift in Sources */,
 				7597C1241EF175FE00B0D5C5 /* BooWhoTests.swift in Sources */,
 				75A1D8AB1EF2E78300094BD4 /* BinaryAgentsTests.swift in Sources */,
